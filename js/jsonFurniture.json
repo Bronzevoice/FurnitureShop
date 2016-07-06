@@ -1,0 +1,64 @@
+[
+	{
+		"id": "",
+		"category": "",
+		"image": "img/",
+		"actualStatus": "alive",
+		"details":
+			{
+				"married": 
+					{
+						"with": "Sansa",
+						"house": "Stark"
+					},
+				"childrens": false
+			}
+	},
+	{
+		"name": "Eddard",
+		"house": "Stark",
+		"image": "img/eddard.jpg",
+		"actualStatus": "Dead",
+		"killedBy": "Anonymous Executioner",
+		"details":
+			{
+				"married": 
+					{
+						"with": "Cathelin",
+						"house": "Stark"
+					},
+				"childrens": 
+					[
+						{
+							"name": "Rob"			
+						},
+						{
+							"name": "Jhon"			
+						},
+						{
+							"name": "Sansa"			
+						},
+						{
+							"name": "Arya"			
+						},
+						{
+							"name": "Bran"			
+						},
+						{
+							"name": "Rickon"			
+						}
+					]
+			}
+	},
+	{
+		"name": "Arya",
+		"house": "Stark",
+		"image": "img/arya.jpg",
+		"actualStatus": "alive",
+		"details":
+			{
+				"married": false,
+				"childrens": false
+			}
+	}
+]
