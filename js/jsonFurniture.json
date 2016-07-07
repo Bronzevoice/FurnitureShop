@@ -1,64 +1,227 @@
 [
 	{
-		"id": "",
-		"category": "",
-		"image": "img/",
-		"actualStatus": "alive",
-		"details":
-			{
-				"married": 
-					{
-						"with": "Sansa",
-						"house": "Stark"
-					},
-				"childrens": false
-			}
+		"id": "1",
+		"name": "chair1",
+		"category": "chairs",
+		"image": "img/chair1",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
 	},
 	{
-		"name": "Eddard",
-		"house": "Stark",
-		"image": "img/eddard.jpg",
-		"actualStatus": "Dead",
-		"killedBy": "Anonymous Executioner",
-		"details":
-			{
-				"married": 
-					{
-						"with": "Cathelin",
-						"house": "Stark"
-					},
-				"childrens": 
-					[
-						{
-							"name": "Rob"			
-						},
-						{
-							"name": "Jhon"			
-						},
-						{
-							"name": "Sansa"			
-						},
-						{
-							"name": "Arya"			
-						},
-						{
-							"name": "Bran"			
-						},
-						{
-							"name": "Rickon"			
-						}
-					]
-			}
+		"id": "2",
+		"name": "chair2",
+		"category": "chairs",
+		"image": "img/chair2",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
 	},
 	{
-		"name": "Arya",
-		"house": "Stark",
-		"image": "img/arya.jpg",
-		"actualStatus": "alive",
-		"details":
-			{
-				"married": false,
-				"childrens": false
-			}
-	}
+		"id": "3",
+		"name": "chair3",
+		"category": "chairs",
+		"image": "img/chair3",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "4",
+		"name": "chair4",
+		"category": "chairs",
+		"image": "img/chair4",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "5",
+		"name": "chair5",
+		"category": "chairs",
+		"image": "img/chair5",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "6",
+		"name": "chair6",
+		"category": "chairs",
+		"image": "img/chair6",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "7",
+		"name": "chair7",
+		"category": "chairs",
+		"image": "img/chair7",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "8",
+		"name": "chair8",
+		"category": "chairs",
+		"image": "img/chair8",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?",
+	},
+	{
+		"id": "9",
+		"name": "chair9",
+		"category": "chairs",
+		"image": "img/chair9",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "10",
+		"name": "chair10",
+		"category": "chairs",
+		"image": "img/chair10",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "11",
+		"name": "shelf1",
+		"category": "shelves",
+		"image": "img/shelf1",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "12",
+		"name": "shelf2",
+		"category": "shelves",
+		"image": "img/shelf2",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "13",
+		"name": "shelf3",
+		"category": "shelves",
+		"image": "img/shelf3",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "14",
+		"name": "shelf4",
+		"category": "shelves",
+		"image": "img/shelf4",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "15",
+		"name": "shelf5",
+		"category": "shelves",
+		"image": "img/shelf5",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "16",
+		"name": "shelf6",
+		"category": "shelves",
+		"image": "img/shelf6",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "17",
+		"name": "shelf7",
+		"category": "shelves",
+		"image": "img/shelf7",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "18",
+		"name": "shelf8",
+		"category": "shelves",
+		"image": "img/shelf8",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "19",
+		"name": "shelf9",
+		"category": "shelves",
+		"image": "img/shelf9",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "20",
+		"name": "shelf10",
+		"category": "shelves",
+		"image": "img/shelf10",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "21",
+		"name": "shelf11",
+		"category": "shelves",
+		"image": "img/shelf11",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "22",
+		"name": "table1",
+		"category": "tables",
+		"image": "img/table1",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "23",
+		"name": "table2",
+		"category": "tables",
+		"image": "img/table2",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "24",
+		"name": "table3",
+		"category": "tables",
+		"image": "img/table3",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "25",
+		"name": "table4",
+		"category": "tables",
+		"image": "img/table4",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "26",
+		"name": "table5",
+		"category": "tables",
+		"image": "img/table5",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "27",
+		"name": "table6",
+		"category": "tables",
+		"image": "img/table6",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "28",
+		"name": "table7",
+		"category": "tables",
+		"image": "img/table7",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "29",
+		"name": "table8",
+		"category": "tables",
+		"image": "img/table8",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "30",
+		"name": "table9",
+		"category": "tables",
+		"image": "img/table9",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "31",
+		"name": "table10",
+		"category": "tables",
+		"image": "img/table10",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	{
+		"id": "32",
+		"name": "table11",
+		"category": "tables",
+		"image": "img/table11",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
+	},
+	
 ]
