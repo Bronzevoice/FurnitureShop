@@ -2,7 +2,7 @@
 	<ul class="list-group list-inline">
 		<li class="list-group-item text-center" ng-repeat="piece in furniture | filter : {category: category}">
 			<p>{{piece.name | uppercase}}</p> 
-			<img class="catalogue-img" src="{{piece.image}}">
+			<img class="catalogue-img" ng-src="{{piece.image}}">
 			<p>{{piece.description}}</p>
 		</li>
 	</ul>

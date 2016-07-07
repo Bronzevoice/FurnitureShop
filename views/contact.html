@@ -3,18 +3,18 @@
     <div class="col-xs-12">
       <form novalidate name="contactForm">
         <div class="form-group">
-          <p>Name</p>
-          <input type="text" class="form-control" placeholder="Name" required ng-model="user.name">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" placeholder="Name" ng-model="user.name" required>
         </div>
 
         <div class="form-group">
-          <p>Email</p>
-          <input type="email" class="form-control" placeholder="example@example.com" required ng-model="user.email">
+          <label for="email">Email</label>
+          <input type="email" class="form-control validate" placeholder="example@example.com" ng-model="user.email" required>
         </div>
 
         <div class="form-group">
-          <p>Comment</p> 
-          <textarea type="text" class="form-control" required ng-model="user.comment"></textarea>
+          <label for="comment">Comment</label> 
+          <textarea type="text" class="materialize-textarea" ng-model="user.comment" required></textarea>
         </div>
 
         <div class="form-group">
@@ -23,44 +23,6 @@
           </button>
         </div>
       </form>
-
-      <pre>master = {{master | json}}</pre>
     </div>
   </div>
 </div>
-
-
-
-<!--
-
-<div ng-controller="ExampleController">
-  <form novalidate class="simple-form">
-    Name: <input type="text" ng-model="user.name" /><br />
-    E-mail: <input type="email" ng-model="user.email" /><br />
-    Gender: <input type="radio" ng-model="user.gender" value="male" />male
-    <input type="radio" ng-model="user.gender" value="female" />female<br />
-    <input type="button" ng-click="reset()" value="Reset" />
-    <input type="submit" ng-click="update(user)" value="Save" />
-  </form>
-  <pre>user = {{user | json}}</pre>
-  <pre>master = {{master | json}}</pre>
-</div>
-
-<script>
-  angular.module('formExample', [])
-    .controller('ExampleController', ['$scope', function($scope) {
-      $scope.master = {};
-
-      $scope.update = function(user) {
-        $scope.master = angular.copy(user);
-      };
-
-      $scope.reset = function() {
-        $scope.user = angular.copy($scope.master);
-      };
-
-      $scope.reset();
-    }]);
-</script>
-
--->

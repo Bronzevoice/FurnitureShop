@@ -1,9 +1,59 @@
-<div class="container-fluid" >
-	<ul class="list-group list-inline">
-		<li class="list-group-item text-center" ng-repeat="piece in furniture">
-			<p>{{piece.name | uppercase}}</p> 
-			<img class="catalogue-img" src="{{piece.image}}">
-			<p>{{piece.description}}</p>
-		</li>
-	</ul>
-</div>
+<section ng-controller="ProductsViewController">
+	<h2>Fucking radio</h2>
+	<section class="furniture-list">
+		<article ng-repeat="piece in furniture | filter: {category: category}" class="furniture">
+			<div class="furniture-box">
+				<p>{{piece.name}}</p>
+				<!-- <img ng-src="{{piece.image}}" class="piece-image" alt="{{piece.image}}" /> -->
+			</div>
+		</article>
+
+		<form>
+			<input type="radio" ng-model="category" value="chairs" /><label for="category">Chairs</label>
+			<input type="radio" ng-model="category" value="shelves" /><label for="category">Shelves</label>
+			<input type="radio" ng-model="category" value="tables" /><label for="category">Tables</label>
+		</form>
+	</section>
+</section>
+
+
+
+
+
+<!--
+<section class="container" ng-controller="ProductsViewController">
+	<form action="#">
+		<span>
+			<input name="group1" type="radio" id="all" ng-model="category" checked />
+			<label for="all">All</label>
+		</span>
+		<span>
+			<input name="group1" type="radio" id="chairs" ng-model="category" />
+			<label for="chairs">Chairs</label>
+		</span>
+		<span>
+			<input name="group1" type="radio" id="shelves" ng-model="category" />
+			<label for="shelves">Shelves</label>
+		</span>
+		<span>
+			<input name="group1" type="radio" id="tables" ng-model="category" />
+			<label for="tables">Tables</label>
+		</span>
+	</form>
+
+
+	<div class="container-fluid" >
+		<ul class="list-group list-inline">
+			<li class="list-group-item text-center" ng-repeat="piece in furniture | filter: {category: category}">
+				<p>{{piece.name | uppercase}}</p> 
+				<img class="catalogue-img" src="{{piece.image}}">
+				<p>{{piece.description}}</p>
+			</li>
+		</ul>
+	</div>  
+</section>
+
+
+ -->
+
+
