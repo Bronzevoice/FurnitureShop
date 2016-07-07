@@ -4,6 +4,14 @@
 }
 
 .container-fluid{
-	margin: 40px;
-	
+	margin: 40px;	
+}
+
+.catalogue-img {
+	width: 200px;
+	height: 200px;
+}
+
+.list-group-item li {
+	width: 200px;
 }
