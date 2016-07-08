@@ -1,46 +1,53 @@
-<section ng-controller="ProductsViewController">
-	<h2>Fucking radio</h2>
-	<section class="furniture-list">
-		<article ng-repeat="piece in furniture | filter: {category: category}" class="furniture">
-			<div class="furniture-box">
-				<p>{{piece.name}}</p>
-				<!-- <img ng-src="{{piece.image}}" class="piece-image" alt="{{piece.image}}" /> -->
-			</div>
-		</article>
+<section class="container" ng-controller="ProductsViewController">
+	<div>
+		<span>
+			<a name="group1" class="waves-effect waves-light btn" ng-model="category" id="1" ng-click="myFilter = {category}">All</a>
+		</span>
+		<span>
+			<a name="group1" class="waves-effect waves-light btn" ng-model="category" id="2" value="chairs" ng-click="myFilter = {category: 'chairs'}">Chairs</a>
+		</span>
+		<span>
+			<a name="group1" class="waves-effect waves-light btn" ng-model="category" id="3" value="shelves" ng-click="myFilter = {category: 'shelves'}">Shelves</a>
+		</span>
+		<span>
+			<a name="group1" class="waves-effect waves-light btn" ng-model="category" id="4" value="tables" ng-click="myFilter = {category: 'tables'}">Tables</a>
+		</span>
+	</div>
 
-		<form>
-			<input type="radio" ng-model="category" value="chairs" /><label for="category">Chairs</label>
-			<input type="radio" ng-model="category" value="shelves" /><label for="category">Shelves</label>
-			<input type="radio" ng-model="category" value="tables" /><label for="category">Tables</label>
-		</form>
-	</section>
+
+	<div class="container-fluid" >
+		<ul class="list-group list-inline">
+			<li class="list-group-item text-center" ng-repeat="piece in furniture | filter: myFilter">
+				<p>{{piece.name | uppercase}}</p> 
+				<img class="catalogue-img" ng-src="{{piece.image}}">
+				<p>{{piece.description}}</p>
+			</li>
+		</ul>
+	</div>  
 </section>
 
 
-
-
-
 <!--
+
 <section class="container" ng-controller="ProductsViewController">
-	<form action="#">
+	<form>
 		<span>
-			<input name="group1" type="radio" id="all" ng-model="category" checked />
+			<input name="group1" type="radio" id="1" ng-model="category" checked />
 			<label for="all">All</label>
 		</span>
 		<span>
-			<input name="group1" type="radio" id="chairs" ng-model="category" />
+			<input name="group1" type="radio" id="2" ng-model="category" value="chairs" />
 			<label for="chairs">Chairs</label>
 		</span>
 		<span>
-			<input name="group1" type="radio" id="shelves" ng-model="category" />
+			<input name="group1" type="radio" id="3" ng-model="category" value="shelves"/>
 			<label for="shelves">Shelves</label>
 		</span>
 		<span>
-			<input name="group1" type="radio" id="tables" ng-model="category" />
+			<input name="group1" type="radio" id="4" ng-model="category" value="tables"/>
 			<label for="tables">Tables</label>
 		</span>
 	</form>
-
 
 	<div class="container-fluid" >
 		<ul class="list-group list-inline">
@@ -51,9 +58,11 @@
 			</li>
 		</ul>
 	</div>  
-</section>
+</section> 
+
+-->
 
 
- -->
+
 
 
