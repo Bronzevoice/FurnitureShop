@@ -1,62 +1,62 @@
 [
 	{
-		"id": "1",
+		"id": "01",
 		"name": "chair1",
 		"category": "chairs",
 		"image": "img/chairs/chair1.jpg",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
 	},
 	{
-		"id": "2",
+		"id": "02",
 		"name": "chair2",
 		"category": "chairs",
 		"image": "img/chairs/chair2.jpg",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
 	},
 	{
-		"id": "3",
+		"id": "03",
 		"name": "chair3",
 		"category": "chairs",
 		"image": "img/chairs/chair3.jpg",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
 	},
 	{
-		"id": "4",
+		"id": "04",
 		"name": "chair4",
 		"category": "chairs",
 		"image": "img/chairs/chair4.jpg",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
 	},
 	{
-		"id": "5",
+		"id": "05",
 		"name": "chair5",
 		"category": "chairs",
 		"image": "img/chairs/chair5.jpg",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
 	},
 	{
-		"id": "6",
+		"id": "06",
 		"name": "chair6",
 		"category": "chairs",
 		"image": "img/chairs/chair6.jpg",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
 	},
 	{
-		"id": "7",
+		"id": "07",
 		"name": "chair7",
 		"category": "chairs",
 		"image": "img/chairs/chair7.jpg",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
 	},
 	{
-		"id": "8",
+		"id": "08",
 		"name": "chair8",
 		"category": "chairs",
 		"image": "img/chairs/chair8.jpg",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio quod vero placeat?"
 	},
 	{
-		"id": "9",
+		"id": "09",
 		"name": "chair9",
 		"category": "chairs",
 		"image": "img/chairs/chair9.jpg",

@@ -14,6 +14,10 @@ app.config(['$routeProvider', function($routeProvider) {
 		templateUrl: 'views/category.html',
 		controller: 'ProductsViewController'
 	})
+	.when('/catalogue/category/product/:id', {
+		templateUrl: 'views/product.html',
+		controller: 'ProductsViewController'
+	})
 	.when('/contact', {
 		templateUrl:'views/contact.html',
 		controller: 'ContactViewController'
@@ -37,6 +41,7 @@ app.controller('HomeViewController', ['$scope', 'Home', function($scope, Home){
 
 app.controller('ProductsViewController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams){
 	$scope.category = $routeParams.category;
+	$scope.id = $routeParams.id;
 
 	$http.get("js/jsonFurniture.json").success(function(data){
 		$scope.furniture = data;

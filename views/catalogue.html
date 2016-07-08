@@ -18,9 +18,11 @@
 	<div class="container-fluid" >
 		<ul class="list-group list-inline">
 			<li class="list-group-item text-center" ng-repeat="piece in furniture | filter: myFilter">
-				<p>{{piece.name | uppercase}}</p> 
-				<img class="catalogue-img" ng-src="{{piece.image}}">
-				<p>{{piece.description}}</p>
+				<a href="#/catalogue/category/product/{{piece.id}}">
+					<p>{{piece.name | uppercase}}</p> 
+					<img class="catalogue-img" ng-src="{{piece.image}}">
+					<p>{{piece.description}}</p>
+				</a>
 			</li>
 		</ul>
 	</div>  
