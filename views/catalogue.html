@@ -1,5 +1,5 @@
 <section class="container" ng-controller="ProductsViewController">
-	<div>
+	<div class="button-list">
 		<span>
 			<a name="group1" class="waves-effect waves-light btn" ng-model="category" id="1" ng-click="myFilter = {category}">All</a>
 		</span>
@@ -14,19 +14,44 @@
 		</span>
 	</div>
 
+	<div class="row" id="cards-container">
+		<div class="col s12 m12"> 
+			<div class="card small" ng-repeat="piece in furniture | filter: myFilter">
 
-	<div class="container-fluid" >
-		<ul class="list-group list-inline">
-			<li class="list-group-item text-center" ng-repeat="piece in furniture | filter: myFilter">
-				<a href="#/catalogue/category/product/{{piece.id}}">
-					<p>{{piece.name | uppercase}}</p> 
-					<img class="catalogue-img" ng-src="{{piece.image}}">
+				<div class="card-image waves-effect waves-block waves-light">
+					<a ng-click = "myFilter = {id:id}:true" href="#/catalogue/category/product/{{piece.id}}"><img ng-src="{{piece.image}}"></a>
+				</div>
+
+				<div class="card-content">
+					<span class="card-title activator grey-text text-darken-4">{{piece.name | uppercase}}<i class="material-icons right">more info</i></span>
+					<p></p>
+				</div>
+
+				<div class="card-reveal">
+					<span class="card-title grey-text text-darken-4">{{piece.name}}<i class="material-icons right">close</i></span>
 					<p>{{piece.description}}</p>
-				</a>
-			</li>
-		</ul>
-	</div>  
-</section>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section> 
+
+
+<!-- 
+<div class="container-fluid" >
+	<ul class="list-group list-inline">
+		<li class="list-group-item text-center" ng-repeat="piece in furniture | filter: myFilter">
+			<a href="#/catalogue/category/product/{{piece.id}}">
+				<p>{{piece.name | uppercase}}</p> 
+				<img class="catalogue-img" ng-src="{{piece.image}}">
+				<p>{{piece.description}}</p>
+			</a>
+		</li>
+	</ul>
+</div> 
+-->
+
 
 
 <!--

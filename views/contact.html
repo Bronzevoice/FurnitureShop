@@ -1,16 +1,29 @@
+<script>
+  angular.module('emailExample', [])
+  .controller('ExampleController', ['$scope', function($scope) {
+    $scope.email = {
+      text: 'me@example.com'
+    };
+  }]);
+</script>
+
 <div class="container">
   <div class="row">
     <div class="col-xs-12">
-      <form novalidate name="contactForm">
+      <form  name="contactForm">
         <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" class="form-control" placeholder="Name" ng-model="user.name" required>
+          <label for="name">Name <span ng-show="contactForm.name.$error.required">(required)</span></label>
+          <input type="text" name="name" class="form-control" placeholder="Name" ng-model="user.name" required>
         </div>
 
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" class="form-control validate" placeholder="example@example.com" ng-model="user.email" required>
+        <div>
+          <label for="email">Email <span ng-show="contactForm.email.$error.required">(required)</span></label>
+          <input type="email" class="form-control" placeholder="email" name="email" ng-model="user.email" required>
+
+          <span ng-show="contactForm.email.$error.email">Not a valid email!</span>
         </div>
+
+        <br>
 
         <div class="form-group">
           <label for="comment">Comment</label> 
